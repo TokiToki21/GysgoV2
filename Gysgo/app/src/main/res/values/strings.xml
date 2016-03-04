@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gysgo</string>
+    <string name="home_profile">Profile</string>
+    <string name="home_viewList">View List</string>
+    <string name="home_Contacts">Contacts</string>
+    <string name="home_SignOut">Sign Out</string>
+</resources>
