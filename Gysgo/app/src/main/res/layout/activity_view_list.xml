@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- links
+ http://www.mysamplecode.com/2012/07/android-listview-checkbox-example.html
+http://www.androidhive.info/2013/07/android-expandable-list-view-tutorial/
+-->
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -21,7 +27,13 @@
         android:id="@+id/scrollView"
         android:layout_weight="1"
         android:gravity="center|top"
-         />
+         >
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
+    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,6 +50,5 @@
             android:layout_height="wrap_content"
             android:text="Delete List"/>
     </LinearLayout>
-
 
 </LinearLayout>
