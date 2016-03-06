@@ -49,11 +49,20 @@
         android:onClick="onViewListClick"/>
 
     <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/home_SignOut"
+    android:id="@+id/button4"
+    android:layout_below="@+id/button3"
+    android:layout_alignParentStart="true"
+    android:onClick="onSignOutClick"/>
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/home_SignOut"
-        android:id="@+id/button4"
-        android:layout_below="@+id/button3"
+        android:text="@string/Master_List"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
         android:layout_alignParentStart="true"
-        android:onClick="onSignOutClick"/>
+        android:onClick="onMasterList"/>
 </LinearLayout>

@@ -24,8 +24,15 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent(this,ViewListActivity.class);
         startActivity(intent);
     }
+
+    public void onMasterList(View view){
+        Intent intent = new Intent(this,MasterListActivity.class);
+        startActivity(intent);
+    }
     public void onSignOutClick(View view){
         //Intent intent = new Intent(this,ProfileActivity.class);
         //startActivity(intent);
     }
+
+
 }
