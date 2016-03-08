@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Gysgo</string>
     <string name="home_profile">Profile</string>
-    <string name="home_viewList">View List</string>
+    <string name="home_viewList">View User List</string>
     <string name="home_Contacts">Contacts</string>
     <string name="home_SignOut">Sign Out</string>
-    <string name="Master_List">Current List</string>
+    <string name="Master_List">Current Master List</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
